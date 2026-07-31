@@ -1,0 +1,5 @@
+# Ignore README
+README.md
+
+# Do not ignore .sh
+!*.sh
