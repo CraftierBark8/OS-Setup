@@ -1,5 +1,9 @@
-# Ignore README
+# Ignore files
 README.md
+software.md
 
-# Do not ignore .sh
+# Ignore folders
+.vscode
+
+# Do not ignore
 !*.sh
