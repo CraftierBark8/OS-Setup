@@ -1,6 +1,7 @@
 # Ignore files
 README.md
 software.md
+*.log
 
 # Ignore folders
 .vscode
