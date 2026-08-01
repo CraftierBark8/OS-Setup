@@ -53,7 +53,7 @@ def YN(message, default = ""):
         # Input and validate
         while True:
             print()
-            selection = input(message + " [Y/n]: ")
+            selection = input(message + " [y/n]: ")
             if selection == "Y" or selection == "y":
                 return True
             elif selection == "N" or selection == "n":
