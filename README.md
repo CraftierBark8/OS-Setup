@@ -5,12 +5,12 @@ Please keep in mind this is meant for personal use as a hobby project, I am in n
 ## Usage
 1. Install python3 & git, on newer distros this should be pre-installed
 2. Clone the repo
-3. Execute 'setup.py' with sudo to setup:
+3. Execute 'setup.py' to start:
 
 ```bash
 git clone https://github.com/CraftierBark8/OS-Setup.git
 cd ./OS-Setup
-sudo python3 ./setup.py
+python3 ./setup.py
 ```
 ## ✨ Features ✨
 
