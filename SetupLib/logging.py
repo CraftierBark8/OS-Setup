@@ -39,7 +39,7 @@ def log_fatal(log_name, message):
     current_time = str(datetime.datetime.now())
     try:
         active_log = open(log_name, "a+")
-        active_log.write(current_time + " - Fatal Error: " + message)
+        active_log.write(current_time + " - Fatal Error: " + message + "\n")
     except:
         1 + 1
     finally:
@@ -52,7 +52,7 @@ def log_event(log_name, message, write_term = False):
     current_time = str(datetime.datetime.now())
     try:
         active_log = open(log_name, "a+")
-        active_log.write(current_time + " - Event: " + message)
+        active_log.write(current_time + " - Event: " + message + "\n")
     except:
         1 + 1
     finally:
@@ -67,7 +67,7 @@ def log_exit(log_name, message):
     current_time = str(datetime.datetime.now())
     try:
         active_log = open(log_name, "a+")
-        active_log.write(current_time + " - Exit: " + message)
+        active_log.write(current_time + " - Exit: " + message + "\n")
     except:
         1 + 1
     finally:
