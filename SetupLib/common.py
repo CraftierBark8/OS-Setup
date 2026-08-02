@@ -1,9 +1,14 @@
 # A list of common functions for setup
 
-def selector(options):
+# -Functions-
+
 # Select from options
+# Desc: create a list to select from with passed array, returns index of selected array option
+def selector(options, message = ""):
     # Print options
     print()
+    if not message == "":
+        print(message)
     for i in range(len(options)):
         print("(" + str(i + 1) + ") - " + options[i])
 
@@ -21,8 +26,9 @@ def selector(options):
         except "InvalidOption":
             print("Error - Please select an option between 1 and " + str(len(options)))
 
-def YN(message, default = ""):
 # Do a y/n message
+# Desc: make a [y/n] option message which returns a True or False value
+def YN(message, default = ""):
     # Select default
     # Default Y
     if default == "Y" or default == "y":
