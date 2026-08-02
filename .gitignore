@@ -2,9 +2,11 @@
 README.md
 software.md
 *.log
+*.pyc
 
 # Ignore folders
 .vscode
+__pycache__
 
 # Do not ignore
 !*.sh
