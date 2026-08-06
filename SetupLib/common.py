@@ -1,4 +1,24 @@
-# A list of common functions for setup
+'''
+OS-Setup - common.py
+This program's purpose is to dynamically create a an executable bash script that installs 
+    and configures the programs selected. This module provides common functions for main
+
+This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as published
+    by the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+(c) 2026 CraftierBark8 on GitHub
+Contact me via GitHub or email at h3xl5hs1@duck.com
+'''
 
 # -Functions-
 
@@ -14,7 +34,7 @@ def selector(options, message = ""):
 
     # Ask for input and validate
     while True:
-        selection = input("Please Select an option (1 to " + str(len(options)) + "): ")
+        selection = input("Select an option (1 to " + str(len(options)) + "): ")
         # Validate
         try:
             selection = int(selection)
